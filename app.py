@@ -9,7 +9,8 @@ APP = Flask(__name__)
 
 # Load the data
 open('data.json', 'r', encoding='utf-8') as opened_data:    
-    MASCOTS = json.load(opened_data)
+
+MASCOTS = json.load(opened_data)
 #MASCOTS = json.load(open('data.json', 'r'))
 
 
